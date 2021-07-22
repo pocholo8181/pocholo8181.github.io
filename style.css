@@ -10,8 +10,18 @@ body{
     background-position: center;
 }
 
+body h1{
+  font-size: 2vw;
+}
+
+body h2{
+  font-size: 1.5vw;
+}
+
 .center{
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text{
@@ -101,4 +111,48 @@ body{
 
   .contactContents p{
     font-size: 1.3vw;
+  }
+
+  /*Portfolio Page*/
+  .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gallery img{
+    width: 320px;
+    height: 190px;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  }
+
+  .gallery a{
+    margin: .4vw;
+    line-height: 0;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  }
+
+  .gallery p{
+    padding: .5vw;
+  }
+
+  /*Works Template*/
+  .template{
+    margin: 1vw;
+  }
+
+  .template img{
+    width: 30%;
+  }
+
+  .template h3{
+    font-size: 1.5vw;
+  }
+    
+  .template p{
+    font-size: 1vw;
   }
