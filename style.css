@@ -122,8 +122,8 @@ body h2{
   }
   
   .gallery img{
-    width: 320px;
-    height: 190px;
+    height: 25vh;
+    max-width: 100%;
     box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
   }
 
@@ -146,7 +146,13 @@ body h2{
   }
 
   .template img{
+    /*
     width: 50%;
+    max-height: 720px;
+    */
+    height: 50vh;
+    max-width: 100%;
+    padding: 1vw;
   }
 
   .template h3{
@@ -154,5 +160,28 @@ body h2{
   }
     
   .template p{
+    font-size: 1vw;
+  }
+
+
+  /*sem hrs*/
+  .semHrs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .semHrs img{
+    height: 50vh;
+    max-width: 100%;
+    padding: 1vw;
+  }
+
+  .semHrsText h3{
+    font-size: 1.5vw;
+  }
+
+  .semHrsText p{
     font-size: 1vw;
   }
